@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2D4D7A31D07CDAC003F6BEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D4D7A21D07CDAC003F6BEB /* AppDelegate.swift */; };
+		A2D4D7A51D07CDAC003F6BEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D4D7A41D07CDAC003F6BEB /* ViewController.swift */; };
+		A2D4D7A81D07CDAC003F6BEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2D4D7A61D07CDAC003F6BEB /* Main.storyboard */; };
+		A2D4D7AA1D07CDAC003F6BEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2D4D7A91D07CDAC003F6BEB /* Assets.xcassets */; };
+		A2D4D7AD1D07CDAC003F6BEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2D4D7AB1D07CDAC003F6BEB /* LaunchScreen.storyboard */; };
+		A2D4D7B81D07CDAD003F6BEB /* SSPhotoLibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D4D7B71D07CDAD003F6BEB /* SSPhotoLibraryTests.swift */; };
+		A2D4D7C31D07CDAD003F6BEB /* SSPhotoLibraryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D4D7C21D07CDAD003F6BEB /* SSPhotoLibraryUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2D4D7B41D07CDAD003F6BEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2D4D7971D07CDAC003F6BEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2D4D79E1D07CDAC003F6BEB;
+			remoteInfo = SSPhotoLibrary;
+		};
+		A2D4D7BF1D07CDAD003F6BEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2D4D7971D07CDAC003F6BEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2D4D79E1D07CDAC003F6BEB;
+			remoteInfo = SSPhotoLibrary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2D4D79F1D07CDAC003F6BEB /* SSPhotoLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSPhotoLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2D4D7A21D07CDAC003F6BEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A2D4D7A41D07CDAC003F6BEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A2D4D7A71D07CDAC003F6BEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2D4D7A91D07CDAC003F6BEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2D4D7AC1D07CDAC003F6BEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2D4D7AE1D07CDAC003F6BEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2D4D7B31D07CDAD003F6BEB /* SSPhotoLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSPhotoLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2D4D7B71D07CDAD003F6BEB /* SSPhotoLibraryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSPhotoLibraryTests.swift; sourceTree = "<group>"; };
+		A2D4D7B91D07CDAD003F6BEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2D4D7BE1D07CDAD003F6BEB /* SSPhotoLibraryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSPhotoLibraryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2D4D7C21D07CDAD003F6BEB /* SSPhotoLibraryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSPhotoLibraryUITests.swift; sourceTree = "<group>"; };
+		A2D4D7C41D07CDAD003F6BEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2D4D79C1D07CDAC003F6BEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D4D7B01D07CDAD003F6BEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D4D7BB1D07CDAD003F6BEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2D4D7961D07CDAC003F6BEB = {
+			isa = PBXGroup;
+			children = (
+				A2D4D7A11D07CDAC003F6BEB /* SSPhotoLibrary */,
+				A2D4D7B61D07CDAD003F6BEB /* SSPhotoLibraryTests */,
+				A2D4D7C11D07CDAD003F6BEB /* SSPhotoLibraryUITests */,
+				A2D4D7A01D07CDAC003F6BEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2D4D7A01D07CDAC003F6BEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2D4D79F1D07CDAC003F6BEB /* SSPhotoLibrary.app */,
+				A2D4D7B31D07CDAD003F6BEB /* SSPhotoLibraryTests.xctest */,
+				A2D4D7BE1D07CDAD003F6BEB /* SSPhotoLibraryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2D4D7A11D07CDAC003F6BEB /* SSPhotoLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				A2D4D7A21D07CDAC003F6BEB /* AppDelegate.swift */,
+				A2D4D7A41D07CDAC003F6BEB /* ViewController.swift */,
+				A2D4D7A61D07CDAC003F6BEB /* Main.storyboard */,
+				A2D4D7A91D07CDAC003F6BEB /* Assets.xcassets */,
+				A2D4D7AB1D07CDAC003F6BEB /* LaunchScreen.storyboard */,
+				A2D4D7AE1D07CDAC003F6BEB /* Info.plist */,
+			);
+			path = SSPhotoLibrary;
+			sourceTree = "<group>";
+		};
+		A2D4D7B61D07CDAD003F6BEB /* SSPhotoLibraryTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2D4D7B71D07CDAD003F6BEB /* SSPhotoLibraryTests.swift */,
+				A2D4D7B91D07CDAD003F6BEB /* Info.plist */,
+			);
+			path = SSPhotoLibraryTests;
+			sourceTree = "<group>";
+		};
+		A2D4D7C11D07CDAD003F6BEB /* SSPhotoLibraryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A2D4D7C21D07CDAD003F6BEB /* SSPhotoLibraryUITests.swift */,
+				A2D4D7C41D07CDAD003F6BEB /* Info.plist */,
+			);
+			path = SSPhotoLibraryUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2D4D79E1D07CDAC003F6BEB /* SSPhotoLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2D4D7C71D07CDAD003F6BEB /* Build configuration list for PBXNativeTarget "SSPhotoLibrary" */;
+			buildPhases = (
+				A2D4D79B1D07CDAC003F6BEB /* Sources */,
+				A2D4D79C1D07CDAC003F6BEB /* Frameworks */,
+				A2D4D79D1D07CDAC003F6BEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSPhotoLibrary;
+			productName = SSPhotoLibrary;
+			productReference = A2D4D79F1D07CDAC003F6BEB /* SSPhotoLibrary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2D4D7B21D07CDAD003F6BEB /* SSPhotoLibraryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2D4D7CA1D07CDAD003F6BEB /* Build configuration list for PBXNativeTarget "SSPhotoLibraryTests" */;
+			buildPhases = (
+				A2D4D7AF1D07CDAD003F6BEB /* Sources */,
+				A2D4D7B01D07CDAD003F6BEB /* Frameworks */,
+				A2D4D7B11D07CDAD003F6BEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2D4D7B51D07CDAD003F6BEB /* PBXTargetDependency */,
+			);
+			name = SSPhotoLibraryTests;
+			productName = SSPhotoLibraryTests;
+			productReference = A2D4D7B31D07CDAD003F6BEB /* SSPhotoLibraryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2D4D7BD1D07CDAD003F6BEB /* SSPhotoLibraryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2D4D7CD1D07CDAD003F6BEB /* Build configuration list for PBXNativeTarget "SSPhotoLibraryUITests" */;
+			buildPhases = (
+				A2D4D7BA1D07CDAD003F6BEB /* Sources */,
+				A2D4D7BB1D07CDAD003F6BEB /* Frameworks */,
+				A2D4D7BC1D07CDAD003F6BEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2D4D7C01D07CDAD003F6BEB /* PBXTargetDependency */,
+			);
+			name = SSPhotoLibraryUITests;
+			productName = SSPhotoLibraryUITests;
+			productReference = A2D4D7BE1D07CDAD003F6BEB /* SSPhotoLibraryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2D4D7971D07CDAC003F6BEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Steeven Sylveus";
+				TargetAttributes = {
+					A2D4D79E1D07CDAC003F6BEB = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					A2D4D7B21D07CDAD003F6BEB = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A2D4D79E1D07CDAC003F6BEB;
+					};
+					A2D4D7BD1D07CDAD003F6BEB = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A2D4D79E1D07CDAC003F6BEB;
+					};
+				};
+			};
+			buildConfigurationList = A2D4D79A1D07CDAC003F6BEB /* Build configuration list for PBXProject "SSPhotoLibrary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2D4D7961D07CDAC003F6BEB;
+			productRefGroup = A2D4D7A01D07CDAC003F6BEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2D4D79E1D07CDAC003F6BEB /* SSPhotoLibrary */,
+				A2D4D7B21D07CDAD003F6BEB /* SSPhotoLibraryTests */,
+				A2D4D7BD1D07CDAD003F6BEB /* SSPhotoLibraryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2D4D79D1D07CDAC003F6BEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D4D7AD1D07CDAC003F6BEB /* LaunchScreen.storyboard in Resources */,
+				A2D4D7AA1D07CDAC003F6BEB /* Assets.xcassets in Resources */,
+				A2D4D7A81D07CDAC003F6BEB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D4D7B11D07CDAD003F6BEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D4D7BC1D07CDAD003F6BEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2D4D79B1D07CDAC003F6BEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D4D7A51D07CDAC003F6BEB /* ViewController.swift in Sources */,
+				A2D4D7A31D07CDAC003F6BEB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D4D7AF1D07CDAD003F6BEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D4D7B81D07CDAD003F6BEB /* SSPhotoLibraryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D4D7BA1D07CDAD003F6BEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D4D7C31D07CDAD003F6BEB /* SSPhotoLibraryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2D4D7B51D07CDAD003F6BEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2D4D79E1D07CDAC003F6BEB /* SSPhotoLibrary */;
+			targetProxy = A2D4D7B41D07CDAD003F6BEB /* PBXContainerItemProxy */;
+		};
+		A2D4D7C01D07CDAD003F6BEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2D4D79E1D07CDAC003F6BEB /* SSPhotoLibrary */;
+			targetProxy = A2D4D7BF1D07CDAD003F6BEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2D4D7A61D07CDAC003F6BEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2D4D7A71D07CDAC003F6BEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2D4D7AB1D07CDAC003F6BEB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2D4D7AC1D07CDAC003F6BEB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2D4D7C51D07CDAD003F6BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2D4D7C61D07CDAD003F6BEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2D4D7C81D07CDAD003F6BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SSPhotoLibrary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = come.steeven.SSPhotoLibrary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A2D4D7C91D07CDAD003F6BEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SSPhotoLibrary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = come.steeven.SSPhotoLibrary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A2D4D7CB1D07CDAD003F6BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SSPhotoLibraryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = come.steeven.SSPhotoLibraryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSPhotoLibrary.app/SSPhotoLibrary";
+			};
+			name = Debug;
+		};
+		A2D4D7CC1D07CDAD003F6BEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SSPhotoLibraryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = come.steeven.SSPhotoLibraryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSPhotoLibrary.app/SSPhotoLibrary";
+			};
+			name = Release;
+		};
+		A2D4D7CE1D07CDAD003F6BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SSPhotoLibraryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = come.steeven.SSPhotoLibraryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SSPhotoLibrary;
+			};
+			name = Debug;
+		};
+		A2D4D7CF1D07CDAD003F6BEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SSPhotoLibraryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = come.steeven.SSPhotoLibraryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SSPhotoLibrary;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2D4D79A1D07CDAC003F6BEB /* Build configuration list for PBXProject "SSPhotoLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D4D7C51D07CDAD003F6BEB /* Debug */,
+				A2D4D7C61D07CDAD003F6BEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2D4D7C71D07CDAD003F6BEB /* Build configuration list for PBXNativeTarget "SSPhotoLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D4D7C81D07CDAD003F6BEB /* Debug */,
+				A2D4D7C91D07CDAD003F6BEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A2D4D7CA1D07CDAD003F6BEB /* Build configuration list for PBXNativeTarget "SSPhotoLibraryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D4D7CB1D07CDAD003F6BEB /* Debug */,
+				A2D4D7CC1D07CDAD003F6BEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A2D4D7CD1D07CDAD003F6BEB /* Build configuration list for PBXNativeTarget "SSPhotoLibraryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D4D7CE1D07CDAD003F6BEB /* Debug */,
+				A2D4D7CF1D07CDAD003F6BEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2D4D7971D07CDAC003F6BEB /* Project object */;
+}
