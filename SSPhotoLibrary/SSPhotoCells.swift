@@ -1,6 +1,5 @@
 //
-//  MNPhotoCells.swift
-//  MizikNet
+//  SSPhotoCells.swift
 //
 //  Created by Steeven Sylveus (Contractor) on 2/20/16.
 //  Copyright © 2016 Steeven Sylveus. All rights reserved.
