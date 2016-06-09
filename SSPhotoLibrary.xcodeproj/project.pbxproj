@@ -14,6 +14,9 @@
 		A2D4D7AD1D07CDAC003F6BEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2D4D7AB1D07CDAC003F6BEB /* LaunchScreen.storyboard */; };
 		A2D4D7B81D07CDAD003F6BEB /* SSPhotoLibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D4D7B71D07CDAD003F6BEB /* SSPhotoLibraryTests.swift */; };
 		A2D4D7C31D07CDAD003F6BEB /* SSPhotoLibraryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D4D7C21D07CDAD003F6BEB /* SSPhotoLibraryUITests.swift */; };
+		A2D4D7D31D07CE01003F6BEB /* SSPhotoCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D4D7D01D07CE01003F6BEB /* SSPhotoCells.swift */; };
+		A2D4D7D41D07CE01003F6BEB /* SSPhotoLibaray.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2D4D7D11D07CE01003F6BEB /* SSPhotoLibaray.storyboard */; };
+		A2D4D7D51D07CE01003F6BEB /* SSPhotoLibaray.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D4D7D21D07CE01003F6BEB /* SSPhotoLibaray.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		A2D4D7BE1D07CDAD003F6BEB /* SSPhotoLibraryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSPhotoLibraryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2D4D7C21D07CDAD003F6BEB /* SSPhotoLibraryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSPhotoLibraryUITests.swift; sourceTree = "<group>"; };
 		A2D4D7C41D07CDAD003F6BEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2D4D7D01D07CE01003F6BEB /* SSPhotoCells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSPhotoCells.swift; sourceTree = "<group>"; };
+		A2D4D7D11D07CE01003F6BEB /* SSPhotoLibaray.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SSPhotoLibaray.storyboard; sourceTree = "<group>"; };
+		A2D4D7D21D07CE01003F6BEB /* SSPhotoLibaray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSPhotoLibaray.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,7 @@
 		A2D4D7A11D07CDAC003F6BEB /* SSPhotoLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				A2D4D7D61D07CE05003F6BEB /* SSPhotoLibrary */,
 				A2D4D7A21D07CDAC003F6BEB /* AppDelegate.swift */,
 				A2D4D7A41D07CDAC003F6BEB /* ViewController.swift */,
 				A2D4D7A61D07CDAC003F6BEB /* Main.storyboard */,
@@ -123,6 +130,16 @@
 				A2D4D7C41D07CDAD003F6BEB /* Info.plist */,
 			);
 			path = SSPhotoLibraryUITests;
+			sourceTree = "<group>";
+		};
+		A2D4D7D61D07CE05003F6BEB /* SSPhotoLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				A2D4D7D01D07CE01003F6BEB /* SSPhotoCells.swift */,
+				A2D4D7D11D07CE01003F6BEB /* SSPhotoLibaray.storyboard */,
+				A2D4D7D21D07CE01003F6BEB /* SSPhotoLibaray.swift */,
+			);
+			name = SSPhotoLibrary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +248,7 @@
 			files = (
 				A2D4D7AD1D07CDAC003F6BEB /* LaunchScreen.storyboard in Resources */,
 				A2D4D7AA1D07CDAC003F6BEB /* Assets.xcassets in Resources */,
+				A2D4D7D41D07CE01003F6BEB /* SSPhotoLibaray.storyboard in Resources */,
 				A2D4D7A81D07CDAC003F6BEB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +274,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2D4D7D31D07CE01003F6BEB /* SSPhotoCells.swift in Sources */,
+				A2D4D7D51D07CE01003F6BEB /* SSPhotoLibaray.swift in Sources */,
 				A2D4D7A51D07CDAC003F6BEB /* ViewController.swift in Sources */,
 				A2D4D7A31D07CDAC003F6BEB /* AppDelegate.swift in Sources */,
 			);
